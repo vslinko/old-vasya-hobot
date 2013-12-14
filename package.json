@@ -1,0 +1,32 @@
+{
+    "name": "vasya-hobot",
+    "version": "0.1.0",
+    "description": "Вася Хобот",
+    "homepage": "http://вася-хобот.рф",
+    "bugs": {
+        "url": "https://github.com/vslinko/vasya-hobot/issues",
+        "email": "vyacheslav.slinko@gmail.com"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Vyacheslav Slinko",
+        "email": "vyacheslav.slinko@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vslinko/vasya-hobot.git"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "coffee-script": "~1.6",
+        "hubot": "~2.6",
+        "hubot-skype": "netpro2k/hubot-skype",
+        "nconf": "~0.6",
+        "fs-extra": "~0.8",
+        "request": "~2.29",
+        "express": "~3.4"
+    },
+    "private": true
+}
